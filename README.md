@@ -6,13 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>แพลตฟอร์มผู้ช่วยการเงิน AI ส่วนบุคคล</title>
     <style>
-        * {
+		■  {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
         }
 
-```
     body {
         font-family: 'Sarabun', Arial, sans-serif;
         line-height: 1.6;
@@ -240,7 +239,6 @@
         }
     }
 </style>
-```
 
 </head>
 <body>
@@ -250,7 +248,6 @@
             <p>วิเคราะห์สถานะการเงิน วางแผนภาษี และจัดการหนี้สิน ด้วยปัญญาประดิษฐ์</p>
         </div>
 
-```
     <div class="form-container">
         <form id="financialForm">
             <!-- ข้อมูลส่วนตัว -->
@@ -527,7 +524,7 @@
         
         try {
             // ส่งข้อมูลไปยัง Google Apps Script
-            const response = await fetch('https://script.google.com/macros/s/AKfycbzYOUR_SCRIPT_ID/exec', {
+            const response = await fetch('⁦https://script.google.com/macros/s/AKfycbzYOUR_SCRIPT_ID/exec⁩', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',
@@ -568,8 +565,6 @@
         addExpense();
     });
 </script>
-```
 
 </body>
 </html>
-
